@@ -109,7 +109,7 @@ program
 program.parse(process.argv);
 
 if (!process.argv.slice(2).length) {
-  ui.showDashboard().catch(console.error);
+  require("../ui/tui").renderTUI();
 }
 
 module.exports = { runDoctor };

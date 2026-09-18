@@ -22,7 +22,8 @@
     "chalk": "^4.1.2",
     "commander": "^12.0.0",
     "inquirer": "^8.2.6",
-    "ora": "^5.4.1"
+    "ora": "^5.4.1",
+    "blessed": "^0.1.81"
   },
   "bin": {
     "codebox": "./bin/codebox"
