@@ -1,2 +1,2 @@
-#!/usr/bin/env node
+#!/data/data/com.termux/files/usr/bin/node
 require('../src/cli/index.js');
