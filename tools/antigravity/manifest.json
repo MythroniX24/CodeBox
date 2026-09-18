@@ -1,0 +1,12 @@
+{
+  "id": "antigravity",
+  "name": "Antigravity CLI",
+  "command": "agy",
+  "description": "Google Advanced Agentic Coding CLI",
+  "installation": { "type": "npm", "package": "antigravity-cli", "args": ["-g"] },
+  "dependencies": ["node", "npm"],
+  "architectures": ["aarch64", "x86_64"],
+  "compatibility": { "termux": true },
+  "verification": { "command": "agy --version" },
+  "launcher": { "type": "terminal" }
+}

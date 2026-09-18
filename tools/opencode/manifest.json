@@ -1,0 +1,12 @@
+{
+  "id": "opencode",
+  "name": "OpenCode",
+  "command": "opencode",
+  "description": "OpenCode agent platform",
+  "installation": { "type": "npm", "package": "opencode-cli", "args": ["-g"] },
+  "dependencies": ["node", "npm"],
+  "architectures": ["aarch64", "x86_64", "armv7l", "i686"],
+  "compatibility": { "termux": true },
+  "verification": { "command": "opencode --version" },
+  "launcher": { "type": "terminal" }
+}

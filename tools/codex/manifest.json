@@ -1,0 +1,12 @@
+{
+  "id": "codex",
+  "name": "OpenAI Codex CLI",
+  "command": "codex",
+  "description": "OpenAI Codex command line interface",
+  "installation": { "type": "npm", "package": "codex-cli", "args": ["-g"] },
+  "dependencies": ["node", "npm"],
+  "architectures": ["aarch64", "x86_64", "armv7l", "i686"],
+  "compatibility": { "termux": true },
+  "verification": { "command": "codex --version" },
+  "launcher": { "type": "terminal" }
+}

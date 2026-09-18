@@ -1,0 +1,30 @@
+{
+  "name": "codebox",
+  "version": "1.0.0",
+  "description": "A modern development environment and code workspace.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MythroniX24/CodeBox.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/MythroniX24/CodeBox/issues"
+  },
+  "homepage": "https://github.com/MythroniX24/CodeBox#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^12.0.0",
+    "inquirer": "^8.2.6",
+    "ora": "^5.4.1"
+  },
+  "bin": {
+    "codebox": "./bin/codebox"
+  }
+}

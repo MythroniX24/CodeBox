@@ -1,0 +1,12 @@
+{
+  "id": "claude",
+  "name": "Claude Code",
+  "command": "claude",
+  "description": "Anthropic's AI coding agent",
+  "installation": { "type": "npm", "package": "@anthropic-ai/claude-code", "args": ["-g"] },
+  "dependencies": ["node", "npm"],
+  "architectures": ["aarch64", "x86_64", "armv7l", "i686"],
+  "compatibility": { "termux": true },
+  "verification": { "command": "claude --version" },
+  "launcher": { "type": "terminal" }
+}

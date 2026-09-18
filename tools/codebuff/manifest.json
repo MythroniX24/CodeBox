@@ -1,0 +1,12 @@
+{
+  "id": "codebuff",
+  "name": "Codebuff",
+  "command": "codebuff",
+  "description": "AI coding tool",
+  "installation": { "type": "npm", "package": "codebuff", "args": ["-g"] },
+  "dependencies": ["node", "npm"],
+  "architectures": ["aarch64", "x86_64", "armv7l", "i686"],
+  "compatibility": { "termux": true },
+  "verification": { "command": "codebuff --version" },
+  "launcher": { "type": "terminal" }
+}

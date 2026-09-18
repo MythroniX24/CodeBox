@@ -1,0 +1,12 @@
+{
+  "id": "gemini",
+  "name": "Google Gemini CLI",
+  "command": "gemini",
+  "description": "Google Gemini CLI agent",
+  "installation": { "type": "npm", "package": "gemini-cli", "args": ["-g"] },
+  "dependencies": ["node", "npm"],
+  "architectures": ["aarch64", "x86_64", "armv7l", "i686"],
+  "compatibility": { "termux": true },
+  "verification": { "command": "gemini --version" },
+  "launcher": { "type": "terminal" }
+}
